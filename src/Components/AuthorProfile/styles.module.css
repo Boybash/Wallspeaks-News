@@ -1,0 +1,39 @@
+.authorProfileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "poppins", sans-serif;
+  background-color: #f5f5dc;
+  padding-top: 130px;
+  padding-bottom: 30px;
+}
+.authorProfileBox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 30px 40px;
+  font-size: 20px;
+  line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.485);
+  box-shadow: 0 0 10px 0 #082c38;
+  margin-top: 20px;
+}
+.authorProfileImage {
+  margin: 0 auto;
+}
+.authorProfileImage img {
+  border-radius: 30%70%70%30%/30%30%70%70%;
+  width: 120px;
+}
+
+@media (max-width: 500px) {
+  .authorProfileBox {
+    width: 300px;
+    font-size: 15px;
+    text-align: left;
+  }
+}

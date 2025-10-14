@@ -1,0 +1,194 @@
+.postContainer {
+  margin: 0 auto;
+  background-color: #f5f5dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 130px;
+  font-family: "poppins", sans-serif;
+}
+.postImageContainer {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 30px;
+}
+.postContent {
+  margin-top: 50px;
+  padding: 0 30px;
+}
+.postAuthor {
+  margin-top: 30px;
+}
+.postImageContainer img {
+  width: 400px;
+}
+.postContainer hr {
+  max-width: 1440px;
+  width: 100%;
+  margin-top: 10px;
+}
+.postCommentContainner {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  margin: 50px auto;
+}
+.postCommentContainner div {
+  max-width: 1440px;
+  width: 100%;
+}
+.postCommentContainner button {
+  margin-top: 20px;
+  width: 400px;
+}
+.postCommentContainner h3 {
+  margin-bottom: 10px;
+}
+.postCommentBox {
+  background-color: rgba(255, 255, 255, 0.37);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #082c38;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.postContent h2 {
+  margin-bottom: 20px;
+}
+.postComment {
+  margin-top: 40px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 150px;
+  height: 100%;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+.postCommentDisplay {
+  max-width: 700px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.37);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #082c38;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.postCommentDisplay ul {
+  max-width: 800px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #082c38;
+  line-height: 30px;
+  margin-bottom: 25px;
+  transition: all 0.2s ease-in-out;
+}
+.postCommentDisplay ul:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #082c38;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+.postCommentDisplay li {
+  padding: 10px 20px;
+  list-style-type: none;
+}
+.commentImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%50%50%0;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.postCommentDisplay p {
+  margin-top: 10px;
+}
+.commentHeader {
+  display: flex;
+  align-items: center;
+}
+.commentInfo {
+  display: flex;
+  flex-direction: column;
+  line-height: 22px;
+}
+.commentInfo span {
+  color: #666;
+}
+@media (max-width: 1100px) {
+  .postCommentContainner {
+    width: 700px;
+  }
+  .postComment {
+    width: 600px;
+  }
+}
+@media (max-width: 750px) {
+  .postCommentContainner {
+    width: 500px;
+  }
+  .postComment {
+    width: 400px;
+  }
+}
+@media (max-width: 550px) {
+  .postCommentContainner {
+    width: 400px;
+  }
+  .postComment {
+    width: 300px;
+  }
+  .postCommentContainner button {
+    margin-top: 20px;
+    width: 200px;
+  }
+}
+@media (max-width: 450px) {
+  .postCommentContainner {
+    width: 300px;
+  }
+  .postComment {
+    width: 250px;
+  }
+  .postCommentBox {
+    padding: 15px;
+  }
+  .postCommentDisplay ul {
+    width: 250px;
+    align-items: center;
+  }
+  .postCommentDisplay {
+    width: 200px;
+    padding: 10px 10px;
+  }
+  .postImageContainer img {
+    width: 300px;
+  }
+}

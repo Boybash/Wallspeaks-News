@@ -1,0 +1,22 @@
+.btn__ {
+  font-family: "Poppins" sans-serif;
+  font-weight: bold;
+}
+button[data-btnstyles="primary"] {
+  color: black;
+  background-color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
+button[data-btnstyles="secondary"] {
+  color: white;
+  background-color: #082c38;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
