@@ -15,7 +15,7 @@ const World = lazy(() => import("./pages/World"));
 const Sport = lazy(() => import("./pages/Sport"));
 const SignupPage = lazy(() => import("./pages/SignupPage"));
 const LoginPage = lazy(() => import("./pages/LoginPage"));
-const CreatePost = lazy(() => import("./pages/CreatePost"));
+const CreatePost = lazy(() => import("./pages/CreatePostPage"));
 const ReportNews = lazy(() => import("./pages/ReportNews"));
 const Becomeanauthor = lazy(() => import("./pages/BecomeAuthor"));
 const ProfilePage = lazy(() => import("./pages/ProfilePage"));
