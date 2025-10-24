@@ -1,4 +1,4 @@
-import Createpost from "../Components/CreatePost/CreatePost";
+import Createpost from "../Components/CreatePost/Createpost";
 const CreatePostPage = () => {
   return (
     <>
