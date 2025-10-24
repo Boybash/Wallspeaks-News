@@ -97,7 +97,7 @@ const Createpost = () => {
         <section className={Styles.formSection}>
           <div>
             <div>
-              <label>Upload Images</label>
+              <label>Upload Image</label>
               <input
                 onChange={handleChange}
                 name="Images"

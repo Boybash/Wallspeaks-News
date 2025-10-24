@@ -54,7 +54,7 @@ const Newsfetch = () => {
       <hr />
       <section className={styles.newsContainer}>
         {paginatedNews.length === 0 ? (
-          <p>Loading.....</p>
+          <p>Loading...</p>
         ) : (
           (searchTerm ? filteredNews : paginatedNews).map((news) => (
             <div key={news.id} className={styles.newsFetchBox}>
