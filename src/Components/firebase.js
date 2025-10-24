@@ -4,7 +4,8 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyABtyhU32MtsYKnVeqdFX3A0VqmkRt0hOg",
+  apiKey: import.meta.env.VITE_API_KEY,
+  // apiKey: "AIzaSyABtyhU32MtsYKnVeqdFX3A0VqmkRt0hOg",
   authDomain: "webauth-e9d9a.firebaseapp.com",
   projectId: "webauth-e9d9a",
   storageBucket: "webauth-e9d9a.firebasestorage.app",
