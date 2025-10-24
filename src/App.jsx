@@ -4,29 +4,30 @@ import { lazy, Suspense } from "react";
 // ... and all other page imports
 
 // 1. Replace regular imports with lazy()
-const Home = lazy(() => import("./pages/Home"));
+
 const Politics = lazy(() => import("./pages/Politics"));
-const Culture = lazy(() => import("./Pages/Culture"));
+const Culture = lazy(() => import("./pages/Culture"));
 const Economy = lazy(() => import("./pages/Economy"));
 const Science = lazy(() => import("./pages/Science"));
 const Technology = lazy(() => import("./pages/Technology"));
 const Travel = lazy(() => import("./pages/Travel"));
 const World = lazy(() => import("./pages/World"));
-const Sport = lazy(() => import("./Pages/Sport"));
-const SignupPage = lazy(() => import("./Pages/SignupPage"));
-const LoginPage = lazy(() => import("./Pages/LoginPage"));
-const CreatePost = lazy(() => import("./Pages/CreatePost"));
-const ReportNews = lazy(() => import("./Pages/ReportNews"));
-const Becomeanauthor = lazy(() => import("./Pages/BecomeAuthor"));
-const ProfilePage = lazy(() => import("./Pages/ProfilePage"));
-const PostCreatedPage = lazy(() => import("./Pages/PostCreatedPage"));
-const PostDetailsPage = lazy(() => import("./Pages/PostDetailsPage"));
-const AuthorProfilePage = lazy(() => import("./Pages/AuthorProfilePage"));
+const Sport = lazy(() => import("./pages/Sport"));
+const SignupPage = lazy(() => import("./pages/SignupPage"));
+const LoginPage = lazy(() => import("./pages/LoginPage"));
+const CreatePost = lazy(() => import("./pages/CreatePost"));
+const ReportNews = lazy(() => import("./pages/ReportNews"));
+const Becomeanauthor = lazy(() => import("./pages/BecomeAuthor"));
+const ProfilePage = lazy(() => import("./pages/ProfilePage"));
+const PostCreatedPage = lazy(() => import("./pages/PostCreatedPage"));
+const PostDetailsPage = lazy(() => import("./pages/PostDetailsPage"));
+const AuthorProfilePage = lazy(() => import("./pages/AuthorProfilePage"));
 
 // Keep regular imports for components like Navbar, Footer, and Contexts
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import { SearchProvider } from "./Components/SearchContext";
+const Home = lazy(() => import("./pages/Home"));
 
 function App() {
   return (
