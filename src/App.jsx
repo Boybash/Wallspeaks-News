@@ -15,7 +15,7 @@ const World = lazy(() => import("./pages/World"));
 const Sport = lazy(() => import("./pages/Sport"));
 const SignupPage = lazy(() => import("./pages/SignupPage"));
 const LoginPage = lazy(() => import("./pages/LoginPage"));
-const CreatePost = lazy(() => import("./pages/CreatePostPage"));
+const CreatePostPage = lazy(() => import("./pages/CreatePostPage"));
 const ReportNews = lazy(() => import("./pages/ReportNews"));
 const Becomeanauthor = lazy(() => import("./pages/BecomeAuthor"));
 const ProfilePage = lazy(() => import("./pages/ProfilePage"));
@@ -54,7 +54,7 @@ function App() {
                 element={<Becomeanauthor />}
               ></Route>
               <Route path="/report" element={<ReportNews />}></Route>
-              <Route path="/create" element={<CreatePost />}></Route>
+              <Route path="/create" element={<CreatePostPage />}></Route>
               <Route path="/loginpage" element={<LoginPage />}></Route>
               <Route path="/signuppage" element={<SignupPage />}></Route>
               <Route path="/" element={<Home />} />

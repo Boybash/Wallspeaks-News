@@ -1,5 +1,5 @@
 import Createpost from "../Components/CreatePost/CreatePost";
-const CreatePost = () => {
+const CreatePostPage = () => {
   return (
     <>
       <Createpost />
@@ -7,4 +7,4 @@ const CreatePost = () => {
   );
 };
 
-export default CreatePost;
+export default CreatePostPage;
