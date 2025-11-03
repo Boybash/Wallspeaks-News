@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "rewrites": [
     {
@@ -8,3 +9,16 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist"
 }
+=======
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
+
+>>>>>>> 8ff0db668523fa2b6b8719b79242d6de6c8bcb4d
