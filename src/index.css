@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .btn__ {
   font-family: "Poppins" sans-serif;
   font-weight: bold;

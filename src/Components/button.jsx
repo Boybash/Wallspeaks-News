@@ -1,14 +1,4 @@
-// const Button = (props) => {
-//   return (
-//     <button
-//       data-btnstyles={props.btnstyles}
-//       className="btn__"
-//       onClick={props.click}
-//     >
-//       {props.text}
-//     </button>
-//   );
-// };
+import React from "react";
 
 const Button = (props) => {
   return (

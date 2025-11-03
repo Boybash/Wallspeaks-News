@@ -54,6 +54,9 @@ hr {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
 }
 .pagination {
   display: flex;

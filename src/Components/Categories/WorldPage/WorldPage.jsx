@@ -4,7 +4,7 @@ import { dataBase } from "../../firebase";
 import { useLocation, useNavigate } from "react-router-dom";
 import styles from "./styles.module.css";
 import Button from "../../button";
-
+import React from "react";
 const WorldPage = () => {
   const [posts, setPosts] = useState([]);
   const navigate = useNavigate();

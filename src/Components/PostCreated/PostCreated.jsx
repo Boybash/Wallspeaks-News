@@ -14,7 +14,6 @@ import {
 } from "firebase/firestore";
 import { useContext } from "react";
 import { SearchContext } from "../SearchContext";
-
 const PostCreated = () => {
   const [posts, setPosts] = useState([]);
   const navigate = useNavigate();

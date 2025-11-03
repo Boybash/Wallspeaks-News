@@ -10,6 +10,7 @@ import LoggedInIcon from "../../assets/green-person-10777 (1).png";
 import LogOutIcon from "../../assets/exit_15796015.png";
 import { useContext } from "react";
 import { SearchContext } from "../SearchContext";
+import React from "react";
 
 const Navbar = ({ onSearch }) => {
   let [DisplayClass, setDisplayClass] = useState("");

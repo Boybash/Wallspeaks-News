@@ -27,6 +27,7 @@ const AuthorProfilePage = lazy(() => import("./pages/AuthorProfilePage"));
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import { SearchProvider } from "./Components/SearchContext";
+import React from "react";
 const Home = lazy(() => import("./pages/Home"));
 
 function App() {

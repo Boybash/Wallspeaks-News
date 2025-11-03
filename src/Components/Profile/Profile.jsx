@@ -15,7 +15,7 @@ import {
 } from "firebase/firestore";
 import Button from "../button";
 import { signOut } from "firebase/auth";
-
+import React from "react";
 const Profile = () => {
   const [userDetails, setUserDetails] = useState(null);
   const [posts, setPosts] = useState([]);

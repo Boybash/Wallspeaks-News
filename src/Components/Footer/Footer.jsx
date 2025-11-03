@@ -5,6 +5,7 @@ import XLogo from "../../assets/social_13147358.png";
 import InstagramLogo from "../../assets/instagram_3621464.png";
 import TelegramLogo from "../../assets/telegram_3536705.png";
 import YoutubeLogo from "../../assets/youtube-symbol_4096062.png";
+import React from "react";
 const Footer = () => {
   return (
     <>

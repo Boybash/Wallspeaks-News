@@ -27,7 +27,7 @@ header {
 }
 .navUserIcon {
   width: 30px;
-  height: 40px;
+  height: 45px;
   cursor: pointer;
   background-color: white;
   padding: 7px 3px;
@@ -43,6 +43,8 @@ header div p {
 header div h1 {
   font-family: "Poppins", sans-serif;
   color: white;
+  font-weight: bold;
+  font-size: 30px;
 }
 .toggle_Btn {
   display: flex;

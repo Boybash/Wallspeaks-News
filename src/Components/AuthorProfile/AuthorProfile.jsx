@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import { doc, getDoc, collection } from "firebase/firestore";
 import { useParams } from "react-router-dom";
 import { dataBase } from "../firebase";
-
+import React from "react";
 const AuthorProfile = () => {
   const { creatorId } = useParams();
   const [author, setAuthor] = useState(null);

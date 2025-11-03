@@ -41,6 +41,12 @@ footer hr {
 .secondLineFooter div h3 {
   margin-bottom: 10px;
 }
+.footerImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
 .footerImage img {
   margin-top: 10px;
   width: 50px;
@@ -74,6 +80,13 @@ footer hr {
   .firstLineFooter input {
     width: 250px;
   }
+  .footerImage {
+    width: 150px;
+  }
+  .footerImage img {
+    width: 30px;
+    padding: 3px 3px;
+  }
 }
 @media (max-width: 320px) {
   .footerSubscribe {
@@ -86,6 +99,10 @@ footer hr {
   }
   .secondLineFooter div {
     width: 100px;
+  }
+  .footerImage {
+    display: flex;
+    flex-direction: column;
   }
   .footerImage img {
     width: 25px;

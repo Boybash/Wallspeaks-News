@@ -7,7 +7,7 @@ import PostCreated from "../PostCreated/PostCreated";
 import { useNavigate } from "react-router-dom";
 import { auth, dataBase } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
-
+import React from "react";
 const Createpost = () => {
   let [formData, setFormData] = useState({
     Images: "",

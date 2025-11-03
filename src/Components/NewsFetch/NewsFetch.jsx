@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import Button from "../button";
 import { useContext } from "react";
 import { SearchContext } from "../SearchContext";
+import React from "react";
 
 const Newsfetch = () => {
   let [newsDisplay, setNewsDisplay] = useState([]);

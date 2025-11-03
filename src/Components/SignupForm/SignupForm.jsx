@@ -10,7 +10,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth, dataBase } from "../firebase";
 import { setDoc, doc } from "firebase/firestore";
 import * as yup from "yup";
-
+import React from "react";
 const SignupForm = () => {
   let navigate = useNavigate();
   let [password, setPassword] = useState("");

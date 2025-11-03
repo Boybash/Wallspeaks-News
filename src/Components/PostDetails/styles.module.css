@@ -23,8 +23,12 @@
   margin-top: 50px;
   padding: 0 30px;
 }
+.postContent h2 {
+  font-weight: bold;
+}
 .postAuthor {
   margin-top: 30px;
+  font-weight: bold;
 }
 .postImageContainer img {
   width: 400px;

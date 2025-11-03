@@ -6,6 +6,7 @@ import AppIcon from "../../assets/checked_189677.png";
 import { useState, useEffect } from "react";
 import { auth, dataBase } from "../firebase";
 import { doc, getDoc } from "firebase/firestore";
+import React from "react";
 const Hero = () => {
   let [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userStatus, setUserStatus] = useState(null);
